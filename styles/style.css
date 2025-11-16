@@ -14,6 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
+  font-variation-settings: 'wght' var(--text-weight);
   width: 100%;
   background-image: var(--gradient);
   background-attachment: fixed;
@@ -89,7 +90,7 @@
 
 .card-title {
   font-family: var(--main-font);
-  font-weight: var(--title-weight);
+  font-variation-settings: 'wght' var(--title-weight);
   font-size: 18px;
   line-height: 19/18;
 }
@@ -99,7 +100,7 @@
 }
 
 .image-2 {
-  filter: grayscale(20%) ;
+  filter: grayscale(20%) brightness(100%) ;
 }
 
 .image-3 {
@@ -124,7 +125,7 @@
 }
 
 .image-8 {
-  filter: contrast(100%), brightness(100%);
+  filter: contrast(100%) brightness(100%);
 }
 
 .card__label {
