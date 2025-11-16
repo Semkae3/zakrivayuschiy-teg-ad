@@ -59,10 +59,12 @@
   mix-blend-mode: difference;
   color: var(--stroke-color);
 }
+
 .main__dialog-button:hover .icon {
   mix-blend-mode: difference;
   
 }
+
 .card__icon-button:focus-visible {
   border: 2px solid var(--accent-color);
   transition: 0.3s ease;
@@ -72,6 +74,7 @@
 .like-icon .main-body {
   fill: transparent;
 }
+
 .like-icon .sparks {
   fill: var(--sparks-color);
   opacity: 0%;
