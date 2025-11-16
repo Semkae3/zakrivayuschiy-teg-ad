@@ -101,7 +101,7 @@
 }
 
 .like-icon:active .main-body,
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--main-body-color);
 }
 
