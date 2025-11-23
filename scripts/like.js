@@ -39,12 +39,3 @@ function setButtonText(heart, button) {
     );
   }
 }
-
-const dialog = document.getElementById('dialog');
-const closeButton = document.getElementById('dialog-close');
-
-if (closeButton) {
-  closeButton.addEventListener('click', () => {
-    dialog.close();
-  });
-}
